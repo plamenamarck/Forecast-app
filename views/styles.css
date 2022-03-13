@@ -1,0 +1,24 @@
+.navParent{
+    display: inline-block;
+    margin: auto ;
+    list-style-type: none;
+}
+.navLi{
+    display: inline-block;
+    margin: 0 15px;
+    width: 120px;
+    text-align: center;
+    border: 1px solid blue;
+    border-radius: 15px;
+    background-color: darkturquoise;
+    padding: 10px;
+}
+
+#containerResultSearch{
+    flex-wrap: wrap;
+}
+
+#containerResultSearch>div{
+    display: inline-block;
+    margin: 1rem;
+}
